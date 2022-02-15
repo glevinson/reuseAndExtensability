@@ -1,7 +1,5 @@
 package ic.doc.strategy;
 
-import java.util.Iterator;
-
 public class TriangleNumbersSequence implements Mapping {
 
     @Override

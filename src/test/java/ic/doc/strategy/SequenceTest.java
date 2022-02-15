@@ -1,4 +1,5 @@
 package ic.doc.strategy;
+
 import org.junit.Test;
 
 import static ic.doc.matchers.IterableBeginsWith.beginsWith;
@@ -13,13 +14,7 @@ public class SequenceTest {
         public int term(int i) {
             return i;
         }
-    }) {
-        // Created anonymous on the fly concrete implementation of sequence
-        @Override
-        public int term(int i) {
-            return i;
-        }
-    };
+    });
 
     @Test
     public void isUndefinedForNegativeIndices() {

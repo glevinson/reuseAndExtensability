@@ -1,6 +1,6 @@
 package ic.doc.strategy;
 
-public class FibonacciSequence implements Mapping{
+public class FibonacciSequence implements Mapping {
 
     @Override
     public int term(int i) {

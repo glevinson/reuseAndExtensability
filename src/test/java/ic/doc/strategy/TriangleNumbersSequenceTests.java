@@ -1,16 +1,16 @@
 package ic.doc.strategy;
 
-import org.junit.Test;
-
 import static ic.doc.matchers.IterableBeginsWith.beginsWith;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.fail;
 
-public class FibonacciSequenceTest {
+import org.junit.Test;
 
-    final FibonacciSequence sequence = new FibonacciSequence();
+public class TriangleNumbersSequenceTests {
+
+    final TriangleNumbersSequence sequence = new TriangleNumbersSequence();
 
     @Test
     public void definesFirstTwoTermsToBeOne() {

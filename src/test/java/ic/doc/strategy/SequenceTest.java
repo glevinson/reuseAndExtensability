@@ -28,7 +28,6 @@ public class SequenceTest {
     }
 
     @Test
-    // Testing sequence itself, that it can be iterated through rather than the values themselves
     public void canBeIteratedThrough() {
         assertThat(sequence, beginsWith(0, 1, 2, 3, 4));
     }

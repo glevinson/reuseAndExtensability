@@ -32,6 +32,5 @@ public class SequenceTest {
     public void canBeIteratedThrough() {
         assertThat(sequence, beginsWith(0, 1, 2, 3, 4));
     }
-
 }
 

@@ -12,5 +12,4 @@ public class TriangleNumbersSequence extends Sequence {
         }
         return ((i + 1) * (i + 2)) / 2;
     }
-
 }

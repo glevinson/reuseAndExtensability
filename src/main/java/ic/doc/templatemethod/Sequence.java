@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 public abstract class Sequence implements Iterable<Integer> {
 
-    // This should never be called but still have hear to comply with the interface
     public abstract int term(int i);
 
     public void checkNegative(int i) {

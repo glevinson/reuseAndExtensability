@@ -9,6 +9,4 @@ public class FibonacciSequence implements Mapping {
         }
         return term(i - 1) + term(i - 2);
     }
-
-
 }

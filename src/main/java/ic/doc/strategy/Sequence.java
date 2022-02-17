@@ -10,13 +10,10 @@ public class Sequence implements Iterable<Integer>, Mapping {
         this.map = map;
     }
 
-    // This should never be called but still have hear to comply with the interface
     public int term(int i) {
 
         checkNegative(i);
-        int answer = map.term(i);
-
-        return answer;
+        return map.term(i);
     }
 
     public void checkNegative(int i) {

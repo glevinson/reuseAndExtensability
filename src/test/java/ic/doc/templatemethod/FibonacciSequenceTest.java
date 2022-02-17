@@ -23,5 +23,4 @@ public class FibonacciSequenceTest {
         assertThat(sequence.term(3), is(3));
         assertThat(sequence.term(4), is(5));
     }
-
 }
